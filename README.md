@@ -103,7 +103,7 @@ NovaView is a smart system dashboard built in Python using Flask. It lets you mo
 
 ---
 
-## 🚀 How to Run
+##  🚀 How to Run
 
 1. **Clone the repository**:
 
