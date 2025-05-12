@@ -2,7 +2,7 @@
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-**Langue / Language**: [🇫🇷 Français](#-fr-présentation) | [🇬🇧 English](#-overview)
+**Langue / Language**: [🇫🇷 Français](#-présentation) | [🇬🇧 English](#-overview)
 
 ---
 
@@ -58,7 +58,7 @@ http://localhost:5000
 
 ---
 
-##📝 Licence
+## 📝 Licence
 Ce projet est sous licence **Creative Commons BY-NC-ND 4.0**.
 
 Usage personnel et non commercial autorisé.
@@ -69,19 +69,19 @@ Plus d’infos : https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 ---
 
-##📩 Contact
+## 📩 Contact
 Pour toute demande de redistribution, intégration ou usage commercial :
 [lunaris121200@gmail.com]
 
 ---
 ---
 
-#NovaView
+# NovaView
 
-##🇬🇧 Overview
+## 🇬🇧 Overview
 NovaView is a smart system dashboard built in Python using Flask. It lets you monitor, explore, and control your computer in real-time from a local web interface. It’s lightweight, portable, requires no database, and runs on Windows or Linux.
 
-###✨ Key Features
+### ✨ Key Features
 - 🔐 **Secure local login** (no database needed)
 
 - 📊 **System overview**: CPU, RAM, GPU, disks and usage
