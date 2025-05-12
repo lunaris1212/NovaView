@@ -79,7 +79,7 @@ Pour toute demande de redistribution, intégration ou usage commercial :
 # NovaView
 
 ## 🇬🇧 Overview
-NovaView is a smart system dashboard built in Python using Flask. It lets you monitor, explore, and control your computer in real-time from a local web interface. It’s lightweight, portable, requires no database, and runs on Windows or Linux.
+**NovaView** is a smart system dashboard built in Python using Flask. It lets you monitor, explore, and control your computer in real-time from a local web interface. It’s lightweight, portable, requires no database, and runs on Windows or Linux.
 
 ### ✨ Key Features
 - 🔐 **Secure local login** (no database needed)
