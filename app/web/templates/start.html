@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <style>
+        :root {
+            --custom-background-color: {{ custom_color[0] }};
+            --custom-nav-color: {{ custom_color[1] }};
+            --custom-text-color: {{ custom_color[2] }};
+        }
+    </style>
+    <script>
+        // Fonction JavaScript pour afficher/masquer un autre champ lorsque "custom" est sélectionné
+        function toggleCustomOptions() {
+            var themeSelect = document.getElementById("theme");
+            // Cibler tous les éléments avec la classe 'custom-options'
+            var customOptions = document.querySelectorAll(".custom-options");
+
+            // Si "custom" est sélectionné, on affiche les éléments
+            if (themeSelect.value === "custom") {
+                customOptions.forEach(function(option) {
+                    option.style.display = "block";  // Affiche les options de personnalisation
+                });
+            } else {
+                // Si un autre thème est sélectionné, on cache les éléments
+                customOptions.forEach(function(option) {
+                    option.style.display = "none";  // Cache les options de personnalisation
+                });
+            }
+        }
+
+        // Exécute la fonction dès que la page est chargée pour prendre en compte le thème initial
+        window.onload = function() {
+            toggleCustomOptions();
+        }
+    </script>
+</head>
+<body class="{{ theme }}-mode"> <!-- Ajoute ici la classe 'light-mode' ou 'dark-mode' en fonction de ton thème -->
