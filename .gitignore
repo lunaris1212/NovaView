@@ -175,3 +175,4 @@ cython_debug/
 
 flask_session/
 temp_data.json
+.idea/
